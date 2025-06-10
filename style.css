@@ -1,0 +1,84 @@
+* {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnConsole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* skelly class */
+.skeleton-sprite{
+    width: 300px;
+    height: 400px;
+    background-image: url('skelly.png');
+    background-size: 100% 100%;
+}
+
+/* health bars */
+
+#healthBars {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 400px;
+    height: 100px;
+    border: solid red;
+    margin: 10px;
+}
+
+/* combat log */
+
+#combatlog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 800px;
+    height: 150px;
+    border: solid red;
+}
+
+/* buttons shape */
+.btn-action {
+
+    width: 250px;
+    height: 250px;
+    border: solid red;
+    background-color: black;
+    margin: 10px;
+
+}
+
+.btn-action:hover {
+    cursor: pointer;
+}
+
+/* action buttons */
+.fire{
+    background-image: url('fire.svg');
+    background-size: 100% 100%
+}
+
+.sword{
+    background-image: url('sword.png');
+    background-size: 100% 100%
+}
+
+.shield{
+    background-image: url('shield.jpg');
+    background-size: 100% 100%
+}
+
